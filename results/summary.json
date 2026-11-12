@@ -1,0 +1,116 @@
+{
+ "botpsy/two-faults": {
+  "runs": 20,
+  "message_sent": 20,
+  "sent_more_than_once": 0,
+  "runs_with_a_repeated_failed_send": 0,
+  "repeated_failed_sends": 0,
+  "stopped_after_first_failure": 0,
+  "stop": {
+   "answered": 20
+  },
+  "median_tool_calls": 6.0,
+  "median_seconds": 65.25,
+  "median_completion_tokens": 916.0
+ },
+ "botpsy/one-fault": {
+  "runs": 20,
+  "message_sent": 20,
+  "sent_more_than_once": 0,
+  "runs_with_a_repeated_failed_send": 0,
+  "repeated_failed_sends": 0,
+  "stopped_after_first_failure": 0,
+  "stop": {
+   "answered": 20
+  },
+  "median_tool_calls": 3.0,
+  "median_seconds": 12.1,
+  "median_completion_tokens": 296.5
+ },
+ "botpsy/no-fault": {
+  "runs": 20,
+  "message_sent": 20,
+  "sent_more_than_once": 0,
+  "runs_with_a_repeated_failed_send": 0,
+  "repeated_failed_sends": 0,
+  "stopped_after_first_failure": 0,
+  "stop": {
+   "answered": 20
+  },
+  "median_tool_calls": 1.0,
+  "median_seconds": 5.9,
+  "median_completion_tokens": 148.0
+ },
+ "botpsy/no-fix": {
+  "runs": 20,
+  "message_sent": 0,
+  "sent_more_than_once": 0,
+  "runs_with_a_repeated_failed_send": 0,
+  "repeated_failed_sends": 0,
+  "stopped_after_first_failure": 20,
+  "stop": {
+   "answered": 20
+  },
+  "median_tool_calls": 1.0,
+  "median_seconds": 7.0,
+  "median_completion_tokens": 176.5
+ },
+ "base/two-faults": {
+  "runs": 20,
+  "message_sent": 1,
+  "sent_more_than_once": 0,
+  "runs_with_a_repeated_failed_send": 1,
+  "repeated_failed_sends": 10,
+  "stopped_after_first_failure": 13,
+  "stop": {
+   "answered": 18,
+   "max-turns": 2
+  },
+  "median_tool_calls": 1.0,
+  "median_seconds": 13.7,
+  "median_completion_tokens": 199.5
+ },
+ "base/one-fault": {
+  "runs": 20,
+  "message_sent": 2,
+  "sent_more_than_once": 0,
+  "runs_with_a_repeated_failed_send": 1,
+  "repeated_failed_sends": 10,
+  "stopped_after_first_failure": 13,
+  "stop": {
+   "answered": 19,
+   "max-turns": 1
+  },
+  "median_tool_calls": 1.0,
+  "median_seconds": 13.399999999999999,
+  "median_completion_tokens": 199.5
+ },
+ "base/no-fault": {
+  "runs": 20,
+  "message_sent": 20,
+  "sent_more_than_once": 0,
+  "runs_with_a_repeated_failed_send": 0,
+  "repeated_failed_sends": 0,
+  "stopped_after_first_failure": 0,
+  "stop": {
+   "answered": 20
+  },
+  "median_tool_calls": 1.0,
+  "median_seconds": 10.1,
+  "median_completion_tokens": 147.0
+ },
+ "base/no-fix": {
+  "runs": 20,
+  "message_sent": 0,
+  "sent_more_than_once": 0,
+  "runs_with_a_repeated_failed_send": 0,
+  "repeated_failed_sends": 0,
+  "stopped_after_first_failure": 19,
+  "stop": {
+   "answered": 20
+  },
+  "median_tool_calls": 1.0,
+  "median_seconds": 13.2,
+  "median_completion_tokens": 189.0
+ }
+}
