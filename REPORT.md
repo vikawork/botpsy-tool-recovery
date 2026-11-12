@@ -60,7 +60,7 @@ Counts per scenario: `results/summary.json` (from `summarize.py`). Every turn, c
 
 ## Setup
 
-- Old PC: Intel Core i7-7700K, 4 cores / 8 threads, 32 GB RAM, Linux. CPU only (`-ngl 0`), 4 threads per server.
+- Test machine: Intel Core i7-7700K, 4 cores / 8 threads, 32 GB RAM, Linux. CPU only (`-ngl 0`), 4 threads per server.
 - llama.cpp release b12211, the official container image
   `ghcr.io/ggml-org/llama.cpp:full-b12211@sha256:8960de326dd60972cc4d442531f4efa006416d5896da2a39f0def0b55cbcb0c2`
   (`llama-server --version`: build 12211, commit 7d7f02875).
